@@ -1,0 +1,19 @@
+.array
+{
+	display: block;
+	cursor: pointer;
+}
+
+.array__top {
+	transform: scale(60%);
+}
+
+.array__left
+{
+	rotate: 90deg;
+}
+
+.array__right
+{
+	rotate: -90deg;
+}
