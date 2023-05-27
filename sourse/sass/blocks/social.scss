@@ -1,0 +1,43 @@
+.social
+{
+	margin: 0 auto;
+	max-width: 1800px;
+}
+
+.social__list
+{
+	list-style: none;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 16px;
+	padding: 0;
+}
+
+.social__item
+{
+	padding: 25px;
+	margin: 15px;
+	box-sizing: border-box;
+	display: inline-block;
+
+	background-color: #F9572E;
+}
+
+.social__title
+{
+	font-size: 21px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.social__text
+{
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+.social__piece
+{
+	display: block;
+}

@@ -1,0 +1,59 @@
+.carousel {
+	overflow: hidden;
+}
+
+.carousel__items
+{
+	overflow: hidden;
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: start;
+	grid-template-columns: 292px 914px 450px;
+	grid-template-rows: 1fr;
+	height: 500px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	column-gap: 155px;
+}
+
+.carousel__item
+{
+	opacity: 0.6;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.carousel__item--show
+{
+	grid-column: 2/3;
+	grid-row: 1/-1;
+	opacity: 1;
+	box-sizing: border-box;
+	position: relative;
+	transition: 0.5s;
+}
+
+.carousel__item--show img
+{
+	// object-fit: fill;
+	max-width: 750px;
+	display: inline;
+}
+
+.carousel__item--show small
+{
+	font-size: 13px;
+	color: #666666;
+	display: inline-block;
+	width: 144px;
+	text-align: start;
+	align-self: flex-start;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	vertical-align: top;
+	box-sizing: border-box;
+}
