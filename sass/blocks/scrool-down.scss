@@ -1,0 +1,46 @@
+.scrool-down
+{
+	position: absolute;
+	bottom: 20px;
+
+	font-family: 'MullerMedium', Arial, sans-serif;
+	font-size: 16px;
+
+	appearance: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	background-color: transparent;
+
+	font-size: 16px;
+	color: #F9572E;
+
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	align-items: center;
+	cursor: pointer;
+
+	&:hover .scrool-down__pic
+	{
+		transform: scaleX(0.8);
+	}
+}
+
+.scrool-down__pic
+{
+	display: block;
+}
+
+.scrool-down__comment
+{
+	text-align: start;
+	display: block;
+}
+
+.scrool-down__piece
+{
+	display: block;
+}
