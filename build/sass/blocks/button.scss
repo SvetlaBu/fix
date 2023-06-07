@@ -1,0 +1,24 @@
+.button
+{
+	padding: 17px 30px;
+	display: block;
+	width: 250px;
+
+	font-family: 'MullerMedium', Arial, sans-serif;
+	font-size: 16px;
+
+	color: #FFFFFF;
+	appearance: none;
+	text-decoration: none;
+	text-align: center;
+
+	background-color: #F9572E;
+	border-radius: 30px;
+	box-shadow: 0 7px 15px rgba(249, 87, 46, 0.6);
+}
+
+.button:hover
+{
+	background-color: #FF7B59;
+	box-shadow: 0 15px 20px 0 rgba(249, 87, 46, 0.7);
+}

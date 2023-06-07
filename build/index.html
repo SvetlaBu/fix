@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>FIX Ремонт - организация ремонта квартир</title>
+		<link rel="icon" href="favicon.ico">
+		<link rel="icon" href="favicon-32x32.png" type="image/svg+xml">
+		<link rel="manifest" href="manifest.json">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="body">
+		<div class="content">
+			<main class="main-page">
+				<section class="info">
+					<div class="info__wrapper">
+						<img class="logo" src="img/logo.svg" alt="Логотип компании FIX Ремонт">
+					</div>
+					<div class="info__company">
+						<h1 class="info__title">Ремонт квартир
+							<span class="info__line">в типовых домах</span>
+						</h1>
+						<p class="info__offer">Готовый дизайн-проект, работы и материалы
+							<span class="info__line">за 3 месяца от 610 т.р.</span></p>
+					</div>
+					<div class="info__addition">
+						<button type="button" class="button info__button">Узнайте о запуске первым</button>
+						<span class="info__text">Старт весной 2024</span>
+					</div>
+					<button class="scrool-down" type="button">
+						<span class="scrool-down__pic">
+							<svg class="array array--top" width="43" height="21" role="img" fill="#FFFFFF">
+							<use xlink:href="img/sprite.svg#bold-array"></use>
+							</svg>
+							<svg class="array" width="43" height="21" fill="#FFFFFF" role="img">
+								<use xlink:href="img/sprite.svg#array"></use>
+							</svg>
+						</span>
+						<span class="scrool-down__comment">Листайте вниз,
+							<span class="scrool-down__piece">чтобы ничего не упустить</span>
+						</span>
+					</button>
+				</section>
+				<div class="video">
+					<img class="video__poster" src="img/Bitmap.jpg" alt="Лаконичный дизайн рабочего места">
+					<button class="video__button" type="button">
+						<img class="video__triangle" src="img/triangle.png" width="110" height="126" alt="Запуск видео.">
+					</button>
+					<span class="video__text">Cмотреть видео</span>
+				</div>
+			</main>
+			<div class="nav">
+				<button type="button" class="nav__contacts">Контакты</button>
+			</div>
+			<section class="advantages">
+				<h2 class="advantages__title">FIX Ремонт — это легко</h2>
+				<p class="advantages__comment">Готовые проекты, проверенные материалы и умелые руки</p>
+				<ul class="advantages__list">
+					<li class="advantages__item">
+						<h3 class="advantages__title">Опытная команда</h3>
+						<p class="advantages__text">Команда проектировщиков и строителей со стажем
+							<span class="advantages__piece">работы более 6 лет</span>
+						</p>
+					</li>
+					<li class="advantages__item">
+						<h3 class="advantages__title">Типовые дизайн-проекты</h3>
+						<p class="advantages__text">Три стиля чистовой отделки «под ключ» и спектр
+							<span class="advantages__piece">дополнительных услуг</span>
+						</p>
+					</li>
+					<li class="advantages__item">
+						<h3 class="advantages__title">Фиксированная смета</h3>
+						<p class="advantages__text">Никаких дополнительных расходов во время ремонта.
+							<span class="advantages__piece">Расчет стоимости при заключении договора</span>
+						</p>
+					</li>
+					<li class="advantages__special">
+						<h3 class="advantages__title">Срок работ</h3>
+						<p class="advantages__text">3 месяца</p>
+					</li>
+				</ul>
+			</section>
+			<section class="styling">
+				<h2 class="styling__title">3 стиля интерьера</h2>
+				<p class="styling__comment">Скандинавский, классический и эко-стиль</p>
+				<div id="carousel" class="carousel"  data-items="1">
+					<ul class="carousel__items">
+						<li class="carousel__item">
+							<img src="img/carousel-3.jpg" loading="lazy"
+							alt="Прихожая в классическом стиле.">
+						</li>
+						<li class="carousel__item carousel__item--show">
+							<img src="img/carousel-1.jpg" loading="lazy"
+							alt="Ванная комната с черной и белой плиткой на стенах.">
+							<small>Кафельная плитка в ванной комнате в скандинавском стиле</small>
+						</li>
+						<li class="carousel__item">
+							<img src="img/carousel-2.jpg" loading="lazy"
+							alt="Столовая в эко-стиле.">
+						</li>
+					</ul>
+				</div>
+				<div class="styling__nav">
+					<button class="styling__prev">
+						<svg class="array array--left" width="43" height="21" role="img" fill="transparent">
+							<use xlink:href="./img/sprite.svg#array"></use>
+						</svg>
+					</button>
+					<button class="styling__next">
+						<svg class="array array--right" width="43" height="21" role="img" fill="transparent">
+							<use xlink:href="img/sprite.svg#array"></use>
+						</svg>
+					</button>
+				</div>
+			</section>
+			<form class="form" method="post" action="#">
+				<fieldset class="form__fieldset">
+					<legend class="form__title">Узнайте о запуске сервиса первым</legend>
+					<p class="form__text">Первым 10 клиентам стальная
+						<span class="form__piece">входная дверь в подарок</span>
+					</p>
+					<div class="form__data">
+						<input class="form__input"
+						type="text" id="name" name="name" placeholder="Имя и фамилия*" required>
+						<label class="form__key" for="name">Имя и фамилия*</label>
+					</div>
+					<div class="form__data">
+						<input class="form__input"
+						type="email" id="email" name="email" placeholder="Е-mail адрес*" required>
+						<label class="form__key" for="email">Е-mail адрес*</label>
+					</div>
+					<div class="form__data">
+						<input class="form__input"
+						type="tel" id="phone" name="phone" placeholder="Телефон"
+						pattern="^(\+)?((\d{2,3}) ?\d|\d)(([ -]?\d)|( ?(\d{2,3}) ?)){5,12}\d$">
+						<label class="form__key" for="phone">Телефон</label>
+					</div>
+					<div class="form__footer">
+						<button type="submit" class=" button form__button">
+							подписаться
+						</button>
+						<small class="form__bottom">
+							* Обязательные для заполнения поля
+						</small>
+						<a class="form__info" href="#">
+							Политика конфиденциальности
+						</a>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<footer class="page-footer">
+			<section class="social">
+				<ul class="social__list">
+					<li class="social__item  social__item--fb">
+						<a class="social__link" href="#"></a>
+					</li>
+					<li class="social__item social__item--vk">
+						<a class="social__link" href="#"></a>
+					</li>
+					<li class="social__item social__item--instagram">
+						<a class="social__link" href="#"></a>
+					</li>
+				</ul>
+				<h3 class="social__title">Следите за нашим развитием</h3>
+				<p class="social__text">Подпишитесь на наши аккаунты в соц. сетях,
+					знакомьтесь<span class="social__piece">с нашими проектами и тем, что нас вдохновляет</span></p>
+			</section>
+			<address class="contacts" id="contacts">
+				<p class="contacts__item">
+					<a class="contacts__phone" href="tel:+7(812)9035445">+7 (812) 903-54-45</a>
+				</p>
+				<p class="contacts__item">
+					Ул. Галерная, д 55,<span class="contacts__city">Санкт-Петербург</span>
+				</p>
+				<p class="contacts__item">
+					<a class="contacts__email" href="mailto:9035445@gmail.com">9035445@gmail.com</a>
+				</p>
+			</address>
+			<div class="copyright">© FIX Ремонт, 2023</div>
+		</footer>
+		<script src="js/carousel.js"></script>
+		<script src="js/scroll.js"></script>
+		<script src="js/modal.js"></script>
+
+		<!-- Сообщение об успешной отправке данных -->
+
+		<div class="modal-open visually-hidden">
+			<section class="success visually-hidden">
+				<fieldset class="success__inner">
+					<legend class="success__title">Узнайте о запуске сервиса первым</legend>
+					<p class="success__text">Спасибо! Мы будем держать
+						вас в курсе обновлений
+					</p>
+				</fieldset>
+			</section>
+		</div>
+	</body>
+</html>

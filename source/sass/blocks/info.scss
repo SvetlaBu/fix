@@ -1,8 +1,9 @@
 .info
 {
+	padding: 0 0 0 90px;
+
 	position: relative;
 	flex: 0 0 40%;
-	padding: 0 0 0 90px;
 	box-sizing: border-box;
 }
 
@@ -64,10 +65,11 @@
 {
 	padding: 17px 12px;
 	width: 230px;
+	box-sizing: border-box;
+
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 200;
-	box-sizing: border-box;
 	appearance: none;
 	border: none;
 }
