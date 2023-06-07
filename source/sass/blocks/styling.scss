@@ -1,0 +1,55 @@
+.styling
+{
+	margin: 0 auto;
+	margin-bottom: 126px;
+	padding: 0;
+	font-family: 'MullerMedium', Arial, sans-serif;
+	position: relative;
+}
+
+.styling__title
+{
+	margin: 0;
+	padding: 0 450px;
+	margin-bottom: 8px;
+
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.styling__comment
+{
+	margin: 0;
+	padding: 0 450px;
+	margin-bottom: 62px;
+
+	font-size: 16px;
+	color: #33B5A3;
+	text-transform: uppercase;
+}
+
+
+.styling__nav
+{
+	position: absolute;
+	bottom: 0;
+	right: 460px;
+}
+
+.styling__prev,
+.styling__next
+{
+	appearance: none;
+	border: none;
+	background-color: transparent;
+}
+
+.styling__nav:focus {
+	outline: none;
+}
+
+.styling__prev:hover,
+.styling__next:hover {
+	transform: scaleY(70%);
+	cursor: pointer;
+}
