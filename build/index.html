@@ -42,7 +42,10 @@
 					</button>
 				</section>
 				<div class="video">
-					<img class="video__poster" src="img/Bitmap.jpg" alt="Лаконичный дизайн рабочего места">
+					<picture>
+						<source media="(min-width: 768px)" type="image/webp" srcset="img/Bitmap.webp, img/Bitmap@2x.webp 2x">
+						<img class="video__poster" src="img/Bitmap.jpg" srcset="img/Bitmap@2x.jpg 2x" alt="Лаконичный дизайн рабочего места.">
+					</picture>
 					<button class="video__button" type="button">
 						<img class="video__triangle" src="img/triangle.png" width="110" height="126" alt="Запуск видео.">
 					</button>
@@ -186,14 +189,14 @@
 		<!-- Сообщение об успешной отправке данных -->
 
 		<div class="modal-open visually-hidden">
-			<section class="success visually-hidden">
+			<div class="success visually-hidden">
 				<fieldset class="success__inner">
 					<legend class="success__title">Узнайте о запуске сервиса первым</legend>
 					<p class="success__text">Спасибо! Мы будем держать
 						вас в курсе обновлений
 					</p>
 				</fieldset>
-			</section>
+			</div>
 		</div>
 	</body>
 </html>
