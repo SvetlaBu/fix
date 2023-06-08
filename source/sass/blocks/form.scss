@@ -1,48 +1,56 @@
 .form
 {
-	font-family: 'MullerRegular', Arial, sans-serif;
-	padding: 0;
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 110px;
 	width: 45%;
 	box-sizing: border-box;
+
+	padding: 0;
+	margin: 0 auto;
+	margin-bottom: 110px;
+
+	font-family: 'MullerRegular', Arial, sans-serif;
+	text-align: center;
 }
 
 .form__title
 {
-	font-family: 'MullerMedium', Arial, sans-serif;
-	font-size: 40px;
+	width: 700px;
+
 	padding: 16px;
 	margin: 0 auto;
 	margin-bottom: 42px;
-	width: 700px;
+
+	font-family: 'MullerMedium', Arial, sans-serif;
+	font-size: 40px;
 }
 
 .form__text
 {
-	font-size: 16px;
-	line-height: 1.5;
-	font-family: 'MullerRegular', Arial, sans-serif;
-	text-transform: uppercase;
-	text-align: start;
 	margin: 0;
 	margin-left: 248px;
 	margin-bottom: 66px;
+
+	font-family: 'MullerRegular', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	text-align: start;
+
 	position: relative;
 }
 
 .form__text::after
 {
-	content: "";
-	background-image: url("../img/door.svg");
-	position: absolute;
 	display: block;
 	width: 46px;
 	height: 70px;
+
+	position: absolute;
 	top: 0;
 	left: 0;
 	transform: translate(-120%, -10%);
+
+	content: "";
+	background-image: url("../img/door.svg");
 }
 
 .form__piece
@@ -69,14 +77,16 @@
 .form__input
 {
 	width: 500px;
-	padding: 18px 24px;
 	box-sizing: border-box;
-	margin: 0 auto;
 	display: block;
+
+	padding: 18px 24px;
+	margin: 0 auto;
 
 	font-family: 'MullerRegular', Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.3em;
+
 	outline: none;
 	border: 1px solid #CCCCCC;
 	border-radius: 4px;
@@ -85,20 +95,23 @@
 .form__key
 {
 	position: absolute;
+
 	padding: 0 10px;
-	box-sizing: border-box;
 	margin: 0;
+	box-sizing: border-box;
+
 	color: #F9572E;
-	line-height: 16px;
-	transform: translate(-235px, -70px);
 	z-index: 3;
+	transform: translate(-235px, -70px);
+
+	line-height: 16px;
 	background-color: #FFFFFF;
 }
 
 .form__input:hover
 {
 	display: block;
-	border: none;
+
 	border: 1px solid #F9572E;
 	border-radius: 4px;
 }

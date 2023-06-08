@@ -11,9 +11,11 @@
 .nav button {
 	font-family: 'MullerMedium', Arial, sans-serif;
 	font-size: 21px;
+
 	text-decoration: none;
 	color: black;
 	position: relative;
+
 	border: none;
 	outline: none;
 	appearance: none;
@@ -28,13 +30,16 @@
 
 .nav__contacts::before
 {
-	content: "";
-	background-image: url("../img/phone.svg");
 	position: absolute;
 	display: block;
 	width: 26px;
 	height: 26px;
+
 	top: 0;
 	left: 0;
 	transform: translate(-120%, -10%);
+
+	content: "";
+	background-image: url("../img/phone.svg");
+
 }
